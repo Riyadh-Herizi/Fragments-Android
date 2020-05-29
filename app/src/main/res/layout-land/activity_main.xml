@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <fragment
+        android:layout_width="390dp"
+        android:layout_height="match_parent"
+        class="com.riyadhherizi.fragments_bloc_e.ListFragment"
+        android:id="@+id/fragmentlist"/>
+    <fragment
+        android:tag="content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.riyadhherizi.fragments_bloc_e.ContentFragment"
+        android:id="@+id/fragmentcontent"/>
+
+
+</LinearLayout>
